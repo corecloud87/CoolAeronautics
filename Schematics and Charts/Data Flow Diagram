@@ -1,0 +1,24 @@
+IoT Device 
+  │
+  │  POST /login 
+  │ (Auth request with credentials)
+  │
+  v
+Authentication Server 
+  │
+  │  JWT Token
+  │
+  v
+IoT Device
+  │
+  │  MQTT Publish
+  │ (Sends data using token)
+  │
+  v
+MQTT Broker
+  │
+  │  MQTT Subscribe
+  │ (Validates and processes data)
+  │
+  v
+Receiving Systems

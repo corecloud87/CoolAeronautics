@@ -1,0 +1,4 @@
++-----------------+        +---------------------+        +-----------------+
+|   IoT Device    |  --->  |  Authentication     |  --->  |   MQTT Broker   |
+| (Sends Request) |        |  Server (Validates) |        |  (Handles Data) |
++-----------------+        +---------------------+        +-----------------+
