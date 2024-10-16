@@ -1,0 +1,8 @@
+
+    -  IoT Devices: Devices that need to be authenticated.
+
+    -  Authentication Server: Handles the authentication using JWT.
+
+    -  MQTT Broker: Manages communication between devices and server.
+
+    -  Secure Communication: Ensures data integrity and confidentiality.
