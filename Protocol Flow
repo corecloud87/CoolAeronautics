@@ -1,0 +1,8 @@
+
+    -  Device Registration: Devices register with the authentication server.
+
+    -  Token Request: Devices request JWT tokens.
+
+    -  Token Validation: Server validates and issues tokens.
+
+    -  MQTT Communication: Devices communicate via MQTT broker using JWT tokens for secure access.
